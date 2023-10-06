@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-1 {
+    min-height: 100vh;
+    width: 20%;
+    background: #343a40; /* Set a background color */
+    border-top-right-radius: 20px; /* Rounded corners on the top right */
+    border-bottom-right-radius: 20px; /* Rounded corners on the bottom right */
+}
+
+.col-1 h1 {
+    margin: 0;
+    padding: 10px;
+    color: #fff; /* Set text color to white */
+}
+
+.col-1 ul {
+    list-style: none;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    padding: 0; /* Remove default padding */
+}
+
+.col-1 li {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.col-1 a {
+    text-decoration: none;
+    color: #DFCBCB; /* Change link color */
+    display: block;
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.col-1 a:hover {
+    color: #fff; /* Change link color on hover */
+}
+
+.col-2 {
+    min-height: 100vh;
+    width: 80%;
+    background-color: #fff; /* Set a background color */
+    box-shadow: 2px 0 0 2px #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 20px; /* Rounded corners on the top left */
+    border-bottom-left-radius: 20px; /* Rounded corners on the bottom left */
+}
+
+.col-2 h1 {
+    margin: 30px 0;
+    padding: 10px;
+    color: #333; /* Change text color */
+    text-align: center;
+    background-color: #ddd; /* Set a background color */
+    border-radius: 10px; /* Add some border radius */
+}
+
+.col-2 p {
+    margin: 10px 0;
+    padding: 10px;
+    color: #333; /* Change text color */
+    text-align: center; /* Center text horizontally */
+}
+
+.col-2 span {
+    margin-right: 10px;
+    display: inline-block; /* Ensure the icon and text are on the same line */
+}
+
+.col-2 span i {
+    font-size: 24px;
+}
+
+.col-2 p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #343a40; /* Set a background color */
+    color: #fff; /* Set text color to white */
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 0 0 20px 20px; /* Rounded corners on the bottom */
+}
